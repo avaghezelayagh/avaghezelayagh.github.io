@@ -16,7 +16,7 @@ Publications
 ------
 
 <br>
-<p style="font-style:0.9em"><b><a href="https://www.nature.com/articles/s41559-022-01801-3">Prolonged morphological expansion of spiny-rayed fishes following the end-Cretaceous,</a><br/>
+<p style="font-style:0.9em"><b><a href="https://www.nature.com/articles/s41559-022-01801-3">Prolonged morphological expansion of spiny-rayed fishes following the end-Cretaceous,</a> </b> <br/>
   <i>A Ghezelayagh, RC Harrington, ED Burress, MA Campbell, JC Buckner...</i> <br/>
   <b>Nature Ecology & Evolution 6 (8), 1211-1220</b>
 </p>
