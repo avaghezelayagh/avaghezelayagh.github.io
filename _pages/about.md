@@ -30,3 +30,20 @@ Publications
 <div class="row">
 </div>
 </div>
+
+<p style="font-style:0.9em"><b><a href="https://academic.oup.com/sysbio/article/71/1/78/6294320">Accelerated Diversification Explains the Exceptional Species Richness of Tropical Characoid Fishes</a> </b> <br/>
+  <i>BF Melo, BL Sidlauskas, TJ Near, FF Roxo, A Ghezelayagh...</i> <br/>
+  <b>Systematic Biology 71 (1), 78-92</b>
+</p>
+<div class="content">
+<div class="row">
+  <div class="col">
+    <p style="font-size:0.75em"> The Neotropics harbor the most species-rich freshwater fish fauna on the planet, but the timing of that exceptional diversification remains unclear. Did the Neotropics accumulate species steadily throughout their long history, or attain their remarkable diversity recently? We used 1288 ultraconserved element loci spanning 293 species, 211 genera, and 21 families of characoid fishes to reconstruct a new, fossil-calibrated phylogeny and infer the most likely diversification scenario for a clade that includes a third of Neotropical fish diversity...</p>
+  </div>
+  <div class="col">
+    <img src="https://avaghezelayagh.github.io/files/accelerated.png">
+  </div>
+</div>
+<div class="row">
+</div>
+</div>
