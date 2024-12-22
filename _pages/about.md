@@ -48,3 +48,18 @@ Publications
 <div class="row">
 </div>
 </div>
+
+<br>
+<p style="font-style:0.9em"><b><a href="https://www.cell.com/current-biology/abstract/S0960-9822(24)00576-1?uuid=uuid%3A8990f750-5814-460a-a1a9-bebeaddae8c5">Synergistic innovations enabled the radiation of anglerfishes in the deep open ocean</a> </b> <br/>
+  <i>CD Brownstein, KL Zapfe, S Lott, RC Harrington, A Ghezelayagh...</i> <br/>
+  <b>Current Biology 34 (11), 2541-2550. e4</b>
+</p>
+<div class="content">
+<div class="row">
+  <div class="col">
+    <p style="font-size:0.75em"> Major ecological transitions are thought to fuel diversification, but whether they are contingent on the evolution of certain traits called key innovations1 is unclear. Key innovations are routinely invoked to explain how lineages rapidly exploit new ecological opportunities. However, investigations of key innovations often focus on single traits rather than considering trait combinations that collectively produce effects of interest. Here, we investigate the evolution of synergistic trait interactions in anglerfishes, which include one of the most species-rich vertebrate clades in the bathypelagic, or “midnight,” zone of the deep sea: Ceratioidea...</p>
+  </div>
+</div>
+<div class="row">
+</div>
+</div>
