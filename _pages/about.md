@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Scholar at the Data Science Institute and the Department of the Geophysical Sciences at the University of Chicago, working under the supervision of David Jablonski. My research applies combines genomic tools with morphological and environmental datasets to address questions spanning the fields of systematics, macroevolution, and population and conservation genomics. Broadly, I explore historical patterns relevant to evolutionary theory and the conservation of aquatic biodiversity in the face of today’s heightened extinction risks.
+I am a Postdoctoral Scholar at the Data Science Institute and the Department of the Geophysical Sciences at the University of Chicago, working under the supervision of David Jablonski. My research combines genomic tools with morphological and environmental datasets, as well as methods in machine learning, to address questions spanning the fields of systematics, macroevolution, and population and conservation genomics. Broadly, I explore historical patterns relevant to evolutionary theory and the conservation of aquatic biodiversity in the face of today’s heightened extinction risks.
 
 *Contact me at* [ghezelayagh@uchicago.edu](mailto:ghezelayagh@uchicago.edu)  
 
