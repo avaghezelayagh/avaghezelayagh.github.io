@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Ecology & Evolutionary Biology, Yale University, 2023
+* M.Sc in Ecology & Evolutionary Biology, Yale University, 2021
+* B.S. in Ecology & Evolutionary Biology, Yale University, 2016
 
 Work experience
 ======
@@ -61,4 +61,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* C
