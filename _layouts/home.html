@@ -1,0 +1,187 @@
+---
+---
+{% assign author = site.author %}
+{% assign pubs = site.data.publications %}
+{% capture me %}<strong class="me">A Ghezelayagh</strong>{% endcapture %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/home.css">
+  <link rel="icon" href="{{ site.baseurl }}/images/favicon.ico">
+  {% include analytics.html %}
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="topbar__name" href="#top">{{ author.name }}</a>
+    <nav class="topbar__nav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero / profile -->
+  <section class="hero" id="about">
+    <div class="wrap hero__grid">
+      <div class="hero__photo">
+        <img src="{{ site.baseurl }}/images/{{ author.avatar }}" alt="Portrait of {{ author.name }}" width="400" height="400">
+      </div>
+      <div class="hero__text">
+        <p class="eyebrow">Evolutionary biologist · Data scientist</p>
+        <h1>{{ author.name }}</h1>
+        <p class="hero__role">
+          AI&nbsp;+&nbsp;Science Postdoctoral Scholar<br>
+          <span>Data Science Institute &amp; Department of the Geophysical Sciences, University&nbsp;of&nbsp;Chicago</span>
+        </p>
+        <div class="bio">{{ content }}</div>
+        <ul class="links">
+          <li><a href="mailto:{{ author.email }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m3 6 9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>Email</a></li>
+          <li><a href="{{ author.googlescholar }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3 1 9.5l4 2.4V17c0 1.7 3.1 3.5 7 3.5s7-1.8 7-3.5v-5.1l2-1.2V16h2V9.5L12 3Zm0 2.3 7.2 4.2L12 13.7 4.8 9.5 12 5.3Z"/></svg>Google Scholar</a></li>
+          <li><a href="https://github.com/{{ author.github }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.6 9.6 0 0 1 5 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>GitHub</a></li>
+          {% if author.twitter %}<li><a href="https://x.com/{{ author.twitter }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.4L5.3 21H2.2l7.2-8.3L1.8 3h6.4l4.4 5.8L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5Z"/></svg>@{{ author.twitter }}</a></li>{% endif %}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research themes -->
+  <section class="section" id="research">
+    <div class="wrap">
+      <h2 class="section__title">Research</h2>
+      <p class="section__lede">I combine genomic data with morphological and environmental datasets, and with methods from machine learning, to study how aquatic biodiversity evolved and how to conserve it.</p>
+      <div class="themes">
+        <article class="theme">
+          <span class="theme__num">01</span>
+          <h3>Macroevolution of fishes</h3>
+          <p>Phylogenomic trees of spiny-rayed fishes built from thousands of ultraconserved elements. I use them to test how mass extinctions, key innovations and new habitats shaped vertebrate diversity.</p>
+        </article>
+        <article class="theme">
+          <span class="theme__num">02</span>
+          <h3>Species &amp; conservation</h3>
+          <p>Integrative species delimitation that combines genomes and morphology to decide which lineages are distinct. These decisions matter directly for endangered-species policy.</p>
+        </article>
+        <article class="theme">
+          <span class="theme__num">03</span>
+          <h3>Machine learning for the fossil record</h3>
+          <p>With David Jablonski, I am building an evolutionary framework for living and extinct bivalves (clams, mussels, oysters and scallops) that integrates fossils and modern species.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selected work -->
+  <section class="section section--tint" id="selected">
+    <div class="wrap">
+      <h2 class="section__title">Selected work</h2>
+      <div class="featured">
+        {% for p in pubs %}{% if p.featured %}
+        <a class="feat" href="{{ p.url }}">
+          <div class="feat__media">
+            <div class="cover cover--{{ p.tone | default: 'ocean' }}"><span>{{ p.cover }}</span></div>
+            {% if p.image and p.image != "" %}<img src="{% if p.image contains '://' %}{{ p.image }}{% else %}{{ site.baseurl }}{{ p.image }}{% endif %}" alt="Figure from “{{ p.title }}”" loading="lazy" onerror="this.remove()">{% endif %}
+          </div>
+          <div class="feat__body">
+            <p class="feat__venue">{{ p.venue }} · {{ p.year }}</p>
+            <h3>{{ p.title }}</h3>
+            <p>{{ p.summary }}</p>
+          </div>
+        </a>
+        {% endif %}{% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- All publications -->
+  <section class="section" id="publications">
+    <div class="wrap">
+      <div class="section__head">
+        <h2 class="section__title">Publications</h2>
+        <a class="btn" href="{{ author.googlescholar }}">Google Scholar profile →</a>
+      </div>
+      {% assign years = pubs | map: "year" | uniq %}
+      {% for y in years %}
+      <div class="year">
+        <h3 class="year__label">{{ y }}</h3>
+        <ol class="pubs">
+          {% for p in pubs %}{% if p.year == y %}
+          <li class="pub">
+            <a class="pub__media" href="{{ p.url }}" tabindex="-1" aria-hidden="true">
+              <div class="cover cover--{{ p.tone | default: 'ocean' }}"><span>{{ p.cover }}</span></div>
+              {% if p.image and p.image != "" %}<img src="{% if p.image contains '://' %}{{ p.image }}{% else %}{{ site.baseurl }}{{ p.image }}{% endif %}" alt="" loading="lazy" onerror="this.remove()">{% endif %}
+            </a>
+            <div class="pub__body">
+              <h4><a href="{{ p.url }}">{{ p.title }}</a></h4>
+              <p class="pub__authors">{{ p.authors | replace: "A Ghezelayagh", me }}</p>
+              <p class="pub__venue">{{ p.venue }}, {{ p.year }}</p>
+              <p class="pub__summary">{{ p.summary }}</p>
+              <p class="pub__actions">
+                <a href="{{ p.url }}">Read paper</a>
+                {% for n in p.press %}<a class="tag" href="{{ n.url }}">{{ n.label }}</a>{% endfor %}
+              </p>
+            </div>
+          </li>
+          {% endif %}{% endfor %}
+        </ol>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- News -->
+  <section class="section section--tint" id="news">
+    <div class="wrap">
+      <h2 class="section__title">In the news</h2>
+      <ul class="news">
+        {% for p in pubs %}{% for n in p.press %}
+        <li><a href="{{ n.url }}"><span class="news__src">{{ n.label }}</span><span class="news__title">{{ p.title }}</span><span class="news__year">{{ p.year }}</span></a></li>
+        {% endfor %}{% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Education / positions -->
+  <section class="section" id="background">
+    <div class="wrap">
+      <h2 class="section__title">Background</h2>
+      <ol class="timeline">
+        <li><span class="timeline__when">2024 – now</span><div><strong>AI + Science Postdoctoral Scholar</strong><br>Data Science Institute &amp; Geophysical Sciences, University of Chicago. Advisor: David Jablonski</div></li>
+        <li><span class="timeline__when">2023</span><div><strong>PhD, Ecology &amp; Evolutionary Biology</strong><br>Yale University. Advisor: Thomas J. Near</div></li>
+        <li><span class="timeline__when">Earlier</span><div><strong>BS, Ecology &amp; Evolutionary Biology</strong><br>Yale University</div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section contact" id="contact">
+    <div class="wrap contact__inner">
+      <h2 class="section__title">Get in touch</h2>
+      <p>I'm always happy to talk about phylogenomics, fishes, bivalves, or machine learning in evolutionary biology.</p>
+      <a class="btn btn--solid" href="mailto:{{ author.email }}">{{ author.email }}</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">© {{ site.time | date: '%Y' }} {{ author.name }} · University of Chicago</div>
+</footer>
+
+</body>
+</html>

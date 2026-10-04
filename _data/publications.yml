@@ -1,0 +1,110 @@
+# Publications shown on the home page, newest first.
+#
+# Fields:
+#   title, authors, venue, year, url  – citation details
+#   summary                           – one or two sentences shown under the citation
+#   image                             – figure shown next to the paper. A path in this repo
+#                                       (e.g. /images/pubs/snail-darter.jpg) or a full URL.
+#                                       Leave blank to show a styled cover instead.
+#   cover                             – short label printed on the styled cover
+#   tone                              – cover colour: ocean, deep, reef, river, sand
+#   featured                          – true to show the paper in "Selected work" at the top
+#   press                             – optional list of {label, url} news coverage links
+#
+# "A Ghezelayagh" is bolded automatically in the author list.
+
+- title: "Alternative pathways into the deep sea: patterns in Bivalvia"
+  authors: "A Ghezelayagh, SM Edie, D Jablonski"
+  venue: "Proceedings of the Royal Society B"
+  year: 2026
+  url: "https://pubmed.ncbi.nlm.nih.gov/41667109/"
+  summary: "Deep-sea endemic lucinid clams arrived piecemeal through as many as 16 independent entries, whereas mussels entered only four times and then diversified in place. The contrast may trace back to differences in ancestral feeding mode."
+  image: ""
+  cover: "Deep-sea bivalves"
+  tone: deep
+  featured: true
+  press:
+    - label: "UChicago News"
+      url: "https://news.uchicago.edu/story/uchicago-paleontologists-investigate-how-life-entered-and-adapted-deep-sea"
+    - label: "Phys.org"
+      url: "https://phys.org/news/2026-03-paleontologists-life-deep-sea.html"
+
+- title: "Genomic and phenotypic delimitation of species in a temperate aquatic biodiversity hotspot"
+  authors: "DJ MacGuigan, A Taylor, A Ghezelayagh, JE Wood, JW Simmons, JM Mollish, TJ Near"
+  venue: "Systematic Biology"
+  year: 2025
+  url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13445616/"
+  summary: "Combines genomic and morphological data to delimit species of freshwater fishes in eastern North America, one of the world's temperate hotspots of aquatic diversity."
+  image: ""
+  cover: "Freshwater species limits"
+  tone: river
+
+- title: "Comparative species delimitation of a biological conservation icon"
+  authors: "A Ghezelayagh, JW Simmons, JE Wood, T Yamashita, …, TJ Near"
+  venue: "Current Biology 35, 398–406"
+  year: 2025
+  url: "https://www.cell.com/current-biology/fulltext/S0960-9822(24)01593-8"
+  summary: "Genomic and morphological evidence shows that the Snail Darter, the fish at the centre of a landmark 1970s Endangered Species Act fight over the Tellico Dam, is a population of the Stargazing Darter rather than a distinct species."
+  image: ""
+  cover: "The Snail Darter"
+  tone: river
+  featured: true
+  press:
+    - label: "Yale News"
+      url: "https://news.yale.edu/2025/01/03/fish-center-key-conservation-fight-not-distinct-species-after-all"
+    - label: "Smithsonian"
+      url: "https://www.smithsonianmag.com/smart-news/a-tiny-endangered-fish-delayed-a-dams-construction-in-the-1970s-now-scientists-say-the-snail-darter-isnt-so-rare-after-all-180985786/"
+
+- title: "Synergistic innovations enabled the radiation of anglerfishes in the deep open ocean"
+  authors: "CD Brownstein, KL Zapfe, S Lott, RC Harrington, A Ghezelayagh, A Dornburg, TJ Near"
+  venue: "Current Biology 34 (11), 2541–2550"
+  year: 2024
+  url: "https://www.cell.com/current-biology/abstract/S0960-9822(24)00576-1"
+  summary: "Anglerfishes moved into the midnight zone 50–35 million years ago, during a period of global warming. Sexual parasitism, size dimorphism and the loss of adaptive immunity worked together to fuel their radiation."
+  image: ""
+  cover: "Deep-sea anglerfishes"
+  tone: deep
+  press:
+    - label: "Yale EEB"
+      url: "https://eeb.yale.edu/news/eeb-researchers-reconstruct-evolutionary-radiation-deep-sea-anglerfishes"
+
+- title: "Species-level recognition and redescription of the Kentucky Arrow Darter, Etheostoma spilotum Gilbert (Percidae: Litocara)"
+  authors: "MR Thomas, RE Blanton, A Ghezelayagh, TJ Near"
+  venue: "Bulletin of the Peabody Museum of Natural History 64 (1), 39–80"
+  year: 2023
+  url: "https://doi.org/10.3374/014.064.0103"
+  summary: "Meristic, morphometric and genetic data support recognising the threatened Kentucky Arrow Darter as a distinct species."
+  image: ""
+  cover: "Kentucky Arrow Darter"
+  tone: sand
+
+- title: "Phylogenomics of Acanthomorpha: from ancient radiations to the tips of the tree"
+  authors: "A Ghezelayagh"
+  venue: "PhD dissertation, Yale University"
+  year: 2023
+  url: "https://elischolar.library.yale.edu/gsas_dissertations/1365/"
+  summary: "Phylogenomic studies of spiny-rayed fishes, from Mesozoic and Cenozoic radiations down to species delimitation."
+  image: ""
+  cover: "Spiny-rayed fishes"
+  tone: reef
+
+- title: "Prolonged morphological expansion of spiny-rayed fishes following the end-Cretaceous"
+  authors: "A Ghezelayagh, RC Harrington, ED Burress, MA Campbell, JC Buckner, …, TJ Near"
+  venue: "Nature Ecology & Evolution 6 (8), 1211–1220"
+  year: 2022
+  url: "https://www.nature.com/articles/s41559-022-01801-3"
+  summary: "A time-calibrated phylogeny built from ultraconserved elements and sampling 91% of acanthomorph families shows that the major lineages arose before the K–Pg extinction, but their body shapes expanded long afterward."
+  image: "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41559-022-01801-3/MediaObjects/41559_2022_1801_Fig3_HTML.png"
+  cover: "Spiny-rayed fishes"
+  tone: reef
+  featured: true
+
+- title: "Accelerated diversification explains the exceptional species richness of tropical characoid fishes"
+  authors: "BF Melo, BL Sidlauskas, TJ Near, FF Roxo, A Ghezelayagh, …"
+  venue: "Systematic Biology 71 (1), 78–92"
+  year: 2022
+  url: "https://academic.oup.com/sysbio/article/71/1/78/6294320"
+  summary: "1,288 ultraconserved element loci across 293 species reveal that Neotropical characoid fishes reached their exceptional richness through accelerated recent diversification."
+  image: "/files/accelerated_resize.png"
+  cover: "Characoid fishes"
+  tone: ocean
