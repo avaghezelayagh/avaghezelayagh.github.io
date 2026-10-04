@@ -128,11 +128,12 @@
             </a>
             <div class="pub__body">
               <h4><a href="{{ p.url }}">{{ p.title }}</a></h4>
-              <p class="pub__authors">{{ p.authors | replace: "A Ghezelayagh", me }}</p>
+              {% if p.authors and p.authors != "" %}<p class="pub__authors">{{ p.authors | replace: "A Ghezelayagh", me }}</p>{% endif %}
               <p class="pub__venue">{{ p.venue }}, {{ p.year }}</p>
-              <p class="pub__summary">{{ p.summary }}</p>
+              {% if p.summary and p.summary != "" %}<p class="pub__summary">{{ p.summary }}</p>{% endif %}
               <p class="pub__actions">
                 <a href="{{ p.url }}">Read paper</a>
+                {% if p.free_url %}<a href="{{ p.free_url }}">Free full text</a>{% endif %}
                 {% for n in p.press %}<a class="tag" href="{{ n.url }}">{{ n.label }}</a>{% endfor %}
               </p>
             </div>
@@ -153,18 +154,6 @@
         <li><a href="{{ n.url }}"><span class="news__src">{{ n.label }}</span><span class="news__title">{{ p.title }}</span><span class="news__year">{{ p.year }}</span></a></li>
         {% endfor %}{% endfor %}
       </ul>
-    </div>
-  </section>
-
-  <!-- Education / positions -->
-  <section class="section" id="background">
-    <div class="wrap">
-      <h2 class="section__title">Background</h2>
-      <ol class="timeline">
-        <li><span class="timeline__when">2024 – now</span><div><strong>AI + Science Postdoctoral Scholar</strong><br>Data Science Institute &amp; Geophysical Sciences, University of Chicago. Advisor: David Jablonski</div></li>
-        <li><span class="timeline__when">2023</span><div><strong>PhD, Ecology &amp; Evolutionary Biology</strong><br>Yale University. Advisor: Thomas J. Near</div></li>
-        <li><span class="timeline__when">Earlier</span><div><strong>BS, Ecology &amp; Evolutionary Biology</strong><br>Yale University</div></li>
-      </ol>
     </div>
   </section>
 

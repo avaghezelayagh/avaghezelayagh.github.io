@@ -2,6 +2,7 @@
 #
 # Fields:
 #   title, authors, venue, year, url  – citation details
+#   free_url                          – optional open-access copy (preprint / PMC)
 #   summary                           – one or two sentences shown under the citation
 #   image                             – figure shown next to the paper. A path in this repo
 #                                       (e.g. /images/pubs/snail-darter.jpg) or a full URL.
@@ -12,6 +13,26 @@
 #   press                             – optional list of {label, url} news coverage links
 #
 # "A Ghezelayagh" is bolded automatically in the author list.
+
+- title: "The macroevolutionary impact of an innovation reversal"
+  authors: ""
+  venue: "bioRxiv preprint"
+  year: 2026
+  url: "https://doi.org/10.64898/2026.08.25.747124"
+  summary: ""
+  image: ""
+  cover: "Innovation reversal"
+  tone: reef
+
+- title: "Linking fluvial barriers and habitat specialization in the evolution of microendemism in riverine fishes"
+  authors: "MF Stokes, D Kim, BW Albanese, DJ MacGuigan, MB Davidson, A Ghezelayagh, TJ Near"
+  venue: "Evolution 80 (9), 2030"
+  year: 2026
+  url: "https://doi.org/10.1093/evolut/qpag123"
+  summary: "In the Holiday Darter species complex, specialization to high-elevation streams on metamorphic rock, together with knickpoints that block dispersal between tributaries, created the isolation that produced microendemic lineages."
+  image: ""
+  cover: "Holiday Darters"
+  tone: river
 
 - title: "Alternative pathways into the deep sea: patterns in Bivalvia"
   authors: "A Ghezelayagh, SM Edie, D Jablonski"
@@ -32,7 +53,7 @@
 - title: "Genomic and phenotypic delimitation of species in a temperate aquatic biodiversity hotspot"
   authors: "DJ MacGuigan, A Taylor, A Ghezelayagh, JE Wood, JW Simmons, JM Mollish, TJ Near"
   venue: "Systematic Biology"
-  year: 2025
+  year: 2026
   url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13445616/"
   summary: "Combines genomic and morphological data to delimit species of freshwater fishes in eastern North America, one of the world's temperate hotspots of aquatic diversity."
   image: ""
@@ -44,6 +65,7 @@
   venue: "Current Biology 35, 398–406"
   year: 2025
   url: "https://www.cell.com/current-biology/fulltext/S0960-9822(24)01593-8"
+  free_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13273766/"
   summary: "Genomic and morphological evidence shows that the Snail Darter, the fish at the centre of a landmark 1970s Endangered Species Act fight over the Tellico Dam, is a population of the Stargazing Darter rather than a distinct species."
   image: ""
   cover: "The Snail Darter"
@@ -60,6 +82,7 @@
   venue: "Current Biology 34 (11), 2541–2550"
   year: 2024
   url: "https://www.cell.com/current-biology/abstract/S0960-9822(24)00576-1"
+  free_url: "https://www.biorxiv.org/content/10.1101/2024.01.12.575380.full"
   summary: "Anglerfishes moved into the midnight zone 50–35 million years ago, during a period of global warming. Sexual parasitism, size dimorphism and the loss of adaptive immunity worked together to fuel their radiation."
   image: ""
   cover: "Deep-sea anglerfishes"
@@ -93,6 +116,7 @@
   venue: "Nature Ecology & Evolution 6 (8), 1211–1220"
   year: 2022
   url: "https://www.nature.com/articles/s41559-022-01801-3"
+  free_url: "https://www.biorxiv.org/content/10.1101/2021.07.12.452083.full"
   summary: "A time-calibrated phylogeny built from ultraconserved elements and sampling 91% of acanthomorph families shows that the major lineages arose before the K–Pg extinction, but their body shapes expanded long afterward."
   image: "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41559-022-01801-3/MediaObjects/41559_2022_1801_Fig3_HTML.png"
   cover: "Spiny-rayed fishes"
@@ -104,6 +128,7 @@
   venue: "Systematic Biology 71 (1), 78–92"
   year: 2022
   url: "https://academic.oup.com/sysbio/article/71/1/78/6294320"
+  free_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9034337/"
   summary: "1,288 ultraconserved element loci across 293 species reveal that Neotropical characoid fishes reached their exceptional richness through accelerated recent diversification."
   image: "/files/accelerated_resize.png"
   cover: "Characoid fishes"
