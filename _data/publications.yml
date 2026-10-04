@@ -9,7 +9,6 @@
 #                                       Leave blank to show a styled cover instead.
 #   cover                             – short label printed on the styled cover
 #   tone                              – cover colour: ocean, deep, reef, river, sand
-#   featured                          – true to show the paper in "Selected work" at the top
 #   press                             – optional list of {label, url} news coverage links
 #
 # "A Ghezelayagh" is bolded automatically in the author list.
@@ -43,7 +42,6 @@
   image: ""
   cover: "Deep-sea bivalves"
   tone: deep
-  featured: true
   press:
     - label: "UChicago News"
       url: "https://news.uchicago.edu/story/uchicago-paleontologists-investigate-how-life-entered-and-adapted-deep-sea"
@@ -70,7 +68,6 @@
   image: ""
   cover: "The Snail Darter"
   tone: river
-  featured: true
   press:
     - label: "Yale News"
       url: "https://news.yale.edu/2025/01/03/fish-center-key-conservation-fight-not-distinct-species-after-all"
@@ -121,7 +118,6 @@
   image: "https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41559-022-01801-3/MediaObjects/41559_2022_1801_Fig3_HTML.png"
   cover: "Spiny-rayed fishes"
   tone: reef
-  featured: true
 
 - title: "Accelerated diversification explains the exceptional species richness of tropical characoid fishes"
   authors: "BF Melo, BL Sidlauskas, TJ Near, FF Roxo, A Ghezelayagh, …"
