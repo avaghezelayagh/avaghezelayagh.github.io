@@ -36,9 +36,30 @@
   <!-- Hero / profile -->
   <section class="hero" id="about">
     <div class="wrap hero__grid">
-      <div class="hero__photo">
-        <img src="{{ site.baseurl }}/images/{{ author.avatar }}" alt="Portrait of {{ author.name }}" width="400" height="400">
-      </div>
+      <aside class="hero__aside">
+        <div class="hero__photo">
+          <img src="{{ site.baseurl }}/images/{{ author.avatar }}" alt="Portrait of {{ author.name }}" width="400" height="400">
+        </div>
+        <dl class="cv">
+          <dt>Current position</dt>
+          <dd>
+            <strong>University of Chicago</strong>
+            <span>AI + Science Postdoctoral Scholar</span>
+            <span>Data Science Institute &amp; Dept. of the Geophysical Sciences</span>
+            <span class="cv__meta">2024 – present · with David Jablonski</span>
+          </dd>
+          <dt>Education</dt>
+          <dd>
+            <strong>Yale University</strong>
+            <span>PhD, Ecology &amp; Evolutionary Biology</span>
+            <span class="cv__meta">2023 · with Thomas J. Near</span>
+          </dd>
+          <dd>
+            <strong>Yale University</strong>
+            <span>BS, Ecology &amp; Evolutionary Biology</span>
+          </dd>
+        </dl>
+      </aside>
       <div class="hero__text">
         <p class="eyebrow">Evolutionary biologist · Data scientist</p>
         <h1>{{ author.name }}</h1>

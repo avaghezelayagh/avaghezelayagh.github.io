@@ -57,6 +57,21 @@ h1, h2, h3, h4 { font-family: var(--serif); line-height: 1.25; margin: 0; }
   border-radius: 50%;
   box-shadow: 0 0 0 6px var(--surface), 0 0 0 7px var(--line), var(--shadow);
 }
+.cv {
+  margin: 28px 0 0; padding: 18px 20px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  font-size: .88rem; line-height: 1.45;
+}
+.cv dt {
+  color: var(--accent); font-size: .7rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase;
+  margin: 18px 0 8px;
+}
+.cv dt:first-child { margin-top: 0; }
+.cv dd { margin: 0 0 12px; padding-left: 12px; border-left: 2px solid var(--line); }
+.cv dd:last-child { margin-bottom: 0; }
+.cv strong { display: block; font-family: var(--serif); font-size: 1rem; color: var(--text); }
+.cv span { display: block; color: var(--muted); }
+.cv .cv__meta { font-size: .8rem; margin-top: 2px; opacity: .85; }
 .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: .78rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
 .hero h1 { font-size: clamp(2.3rem, 5vw, 3.4rem); font-weight: 700; letter-spacing: -.01em; }
 .hero__role { margin: 12px 0 24px; font-size: 1.08rem; font-weight: 500; }
@@ -194,6 +209,11 @@ h1, h2, h3, h4 { font-family: var(--serif); line-height: 1.25; margin: 0; }
   .hero { padding: 40px 0 32px; }
   .hero__grid { grid-template-columns: 1fr; gap: 24px; text-align: left; }
   .hero__photo { width: 150px; }
+  .hero__aside { display: contents; }
+  .hero__photo { order: 0; }
+  .hero__text { order: 1; }
+  .cv { order: 2; }
+  .cv { margin-top: 4px; }
   .section { padding: 52px 0; }
   .year { grid-template-columns: 1fr; gap: 12px; }
   .year__label { position: static; }
