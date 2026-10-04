@@ -29,7 +29,7 @@
   year: 2026
   url: "https://doi.org/10.1093/evolut/qpag123"
   summary: "In the Holiday Darter species complex, specialization to high-elevation streams on metamorphic rock, together with knickpoints that block dispersal between tributaries, created the isolation that produced microendemic lineages."
-  image: ""
+  image: "/images/pubs/holiday-darters.jpg"
   cover: "Holiday Darters"
   tone: river
 
@@ -54,7 +54,7 @@
   year: 2026
   url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13445616/"
   summary: "Combines genomic and morphological data to delimit species of freshwater fishes in eastern North America, one of the world's temperate hotspots of aquatic diversity."
-  image: ""
+  image: "/images/pubs/allohistium-darters.jpg"
   cover: "Freshwater species limits"
   tone: river
 
