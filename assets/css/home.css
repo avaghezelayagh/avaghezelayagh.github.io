@@ -36,6 +36,7 @@ h1, h2, h3, h4 { font-family: var(--serif); line-height: 1.25; margin: 0; }
 /* Hero */
 .hero { padding: 72px 0 56px; }
 .hero__grid { display: grid; grid-template-columns: 260px 1fr; gap: 56px; align-items: start; }
+.hero__photo { width: 90%; margin: 0 auto; }
 .hero__photo img {
   width: 100%; height: auto; aspect-ratio: 1; object-fit: cover;
   border-radius: 50%;
@@ -162,7 +163,7 @@ h1, h2, h3, h4 { font-family: var(--serif); line-height: 1.25; margin: 0; }
   .wrap { padding: 0 16px; }
   .hero { padding: 40px 0 32px; }
   .hero__grid { grid-template-columns: 1fr; gap: 24px; text-align: left; }
-  .hero__photo { width: 150px; }
+  .hero__photo { width: 135px; margin: 0; }
   .hero__aside { display: contents; }
   .hero__photo { order: 0; }
   .hero__text { order: 1; }
